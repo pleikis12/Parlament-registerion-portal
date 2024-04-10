@@ -1,0 +1,29 @@
+header {
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.user {
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.loggout {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 25px;
+}
+
+.loggout i {
+  --icon_size: 15px;
+  font-size: 15px;
+  transition: font-size 0.2s;
+}
+
+.loggout i:hover {
+  font-size: 18px;
+}
+

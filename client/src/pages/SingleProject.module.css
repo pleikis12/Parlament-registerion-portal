@@ -1,0 +1,30 @@
+.photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.project_wraper td {
+  vertical-align: middle;
+}
+
+.change_status {
+  padding: 5px 10px;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change_status:hover {
+  background-color: #424649!important;
+}
+
+.project_controls_wraper{
+  padding: 10px 0;
+}
+
+.project_controls_wraper button:first-child {
+  margin-right: 10px;
+}

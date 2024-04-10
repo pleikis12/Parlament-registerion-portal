@@ -1,0 +1,33 @@
+.photo img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.project_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.project {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.project p {
+  margin: 0;
+}
+
+.title {
+  padding-top: 10px;
+  width: auto;
+  text-align: center;
+  font-weight: bold;
+}
